@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "YouTubeHideCaptions"
+  },
+  "extDescription": {
+    "message": "YouTubeの字幕表示をワンクリックで切り替えられるよ。"
+  },
+  "captionLabel": {
+    "message": "字幕"
+  }
+}

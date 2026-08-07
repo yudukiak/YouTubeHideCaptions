@@ -1,3 +1,5 @@
+const extensionApi = globalThis.browser ?? globalThis.chrome
+
 const SWITCH_ID = 'ydk-caption-switch'
 const STORAGE_KEY = 'youtube-caption-visible'
 
@@ -42,7 +44,7 @@ const setupSwitch = () => {
   checkboxElm.type = 'checkbox'
 
   const textElm = document.createElement('span')
-  textElm.textContent = '字幕'
+  textElm.textContent = extensionApi.i18n.getMessage('captionLabel')
 
   // 切り替えた状態を保存して字幕へ反映
   checkboxElm.addEventListener('change', () => {

@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "YouTubeHideCaptions"
+  },
+  "extDescription": {
+    "message": "Toggle YouTube captions with one click."
+  },
+  "captionLabel": {
+    "message": "Captions"
+  }
+}
