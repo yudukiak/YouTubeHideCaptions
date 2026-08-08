@@ -2,7 +2,10 @@
   --ydk-hidden-captions-rgb: 0, 0, 0;
 }
 
-:root[dark] {
+/* デスクトップ */
+:root[dark],
+/* モバイル */
+:root[darker-dark-theme] {
   --ydk-hidden-captions-rgb: 255, 255, 255;
 }
 
