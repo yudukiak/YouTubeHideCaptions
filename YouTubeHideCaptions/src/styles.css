@@ -5,7 +5,7 @@
 /* デスクトップ */
 :root[dark],
 /* モバイル */
-:root[darker-dark-theme] {
+:root:has(.ytSearchboxComponentHostDark) {
   --ydk-hidden-captions-rgb: 255, 255, 255;
 }
 
